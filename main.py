@@ -7,7 +7,7 @@ import seaborn as sns
 from sklearn.linear_model import LinearRegression
 
 st.set_page_config(layout="wide")
-st.title('Cardlytics')
+st.title('CDLX data analytics')
 
 def analyze_industry(industry):
 	xcol = industry+' Incentive'
