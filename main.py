@@ -37,7 +37,7 @@ def analyze_industry(industry):
 	ax2.legend(["Incentive", "Redemption"],loc="upper right")
 	st.pyplot(fig)
 	
-uploaded_file = "CDLX_data.csv" #st.file_uploader("Choose a file")
+uploaded_file = "rawdata.csv" #st.file_uploader("Choose a file")
 if uploaded_file is not None:
 	df = pd.read_csv(uploaded_file)
 	cols = df.columns
